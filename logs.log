@@ -9839,3 +9839,53 @@ AttributeError: 'OptunaSearchCV' object has no attribute 'cv_results_'
 2022-08-13 17:08:54,141:INFO:Scoring test/hold-out set
 2022-08-13 17:08:54,363:INFO:Visual Rendered Successfully
 2022-08-13 17:08:54,472:INFO:plot_model() succesfully completed......................................
+2022-08-13 17:15:45,688:INFO:Initializing interpret_model()
+2022-08-13 17:15:45,688:INFO:interpret_model(estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=6,
+                       max_features=0.8638088019854925, max_leaf_nodes=None,
+                       max_samples=None,
+                       min_impurity_decrease=9.104436403141878e-06,
+                       min_impurity_split=None, min_samples_leaf=3,
+                       min_samples_split=9, min_weight_fraction_leaf=0.0,
+                       n_estimators=160, n_jobs=-1, oob_score=False,
+                       random_state=55, verbose=0, warm_start=False), use_train_data=False, X_new_sample=None, y_new_sample=None, feature=None, kwargs={}, observation=None, plot=summary, save=False)
+2022-08-13 17:15:45,688:INFO:Checking exceptions
+2022-08-13 17:15:45,825:INFO:plot type: summary
+2022-08-13 17:15:45,825:INFO:Creating TreeExplainer
+2022-08-13 17:15:45,831:INFO:Compiling shap values
+2022-08-13 17:15:48,385:INFO:Visual Rendered Successfully
+2022-08-13 17:15:48,385:INFO:interpret_model() succesfully completed......................................
+2022-08-13 17:16:10,858:INFO:Initializing plot_model()
+2022-08-13 17:16:10,858:INFO:plot_model(fold=None, use_train_data=False, verbose=True, is_in_evaluate=False, display=None, display_format=None, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='auto',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=100,
+                       n_jobs=-1, oob_score=False, random_state=55, verbose=0,
+                       warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, plot=manifold, save=False, scale=1, system=True)
+2022-08-13 17:16:10,858:INFO:Checking exceptions
+2022-08-13 17:16:10,871:INFO:Preparing display monitor
+2022-08-13 17:16:10,876:INFO:Preloading libraries
+2022-08-13 17:16:10,906:INFO:Copying training dataset
+2022-08-13 17:16:10,907:INFO:Copying test dataset
+2022-08-13 17:16:10,907:INFO:Plot type: manifold
+2022-08-13 17:16:10,975:INFO:Fitting & Transforming Model
+2022-08-13 17:16:25,297:INFO:Visual Rendered Successfully
+2022-08-13 17:16:25,413:INFO:plot_model() succesfully completed......................................
+2022-08-13 17:16:38,411:INFO:Initializing plot_model()
+2022-08-13 17:16:38,411:INFO:plot_model(fold=None, use_train_data=False, verbose=True, is_in_evaluate=False, display=None, display_format=None, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='auto',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=100,
+                       n_jobs=-1, oob_score=False, random_state=55, verbose=0,
+                       warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, plot=rfe, save=False, scale=1, system=True)
+2022-08-13 17:16:38,412:INFO:Checking exceptions
+2022-08-13 17:16:38,425:INFO:Preparing display monitor
+2022-08-13 17:16:38,431:INFO:Preloading libraries
+2022-08-13 17:16:38,458:INFO:Copying training dataset
+2022-08-13 17:16:38,459:INFO:Copying test dataset
+2022-08-13 17:16:38,459:INFO:Plot type: rfe
+2022-08-13 17:16:38,487:INFO:Fitting Model
