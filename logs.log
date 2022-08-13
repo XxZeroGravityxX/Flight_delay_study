@@ -3778,3 +3778,131 @@ KeyboardInterrupt
 2022-08-12 22:54:10,901:INFO:Plot type: parameter
 2022-08-12 22:54:10,914:INFO:Visual Rendered Successfully
 2022-08-12 22:54:11,080:INFO:plot_model() succesfully completed......................................
+2022-08-12 22:58:40,082:INFO:Initializing plot_model()
+2022-08-12 22:58:40,083:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.3, loss='deviance', max_depth=8,
+                           max_features='sqrt', max_leaf_nodes=None,
+                           min_impurity_decrease=0.2, min_impurity_split=None,
+                           min_samples_leaf=4, min_samples_split=10,
+                           min_weight_fraction_leaf=0.0, n_estimators=250,
+                           n_iter_no_change=None, presort='deprecated',
+                           random_state=55, subsample=0.95, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=pr, plot_kwargs={}, save=False, scale=1, system=True)
+2022-08-12 22:58:40,083:INFO:Checking exceptions
+2022-08-12 22:58:40,087:INFO:Preparing display monitor
+2022-08-12 22:58:40,100:INFO:Preloading libraries
+2022-08-12 22:58:40,128:INFO:Copying training dataset
+2022-08-12 22:58:40,129:INFO:Copying test dataset
+2022-08-12 22:58:40,129:INFO:Plot type: pr
+2022-08-12 22:58:40,137:INFO:Fitting Model
+2022-08-12 22:58:40,139:INFO:Scoring test/hold-out set
+2022-08-12 22:58:40,474:INFO:Visual Rendered Successfully
+2022-08-12 22:58:40,600:INFO:plot_model() succesfully completed......................................
+2022-08-12 22:58:52,418:INFO:Initializing plot_model()
+2022-08-12 22:58:52,418:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.3, loss='deviance', max_depth=8,
+                           max_features='sqrt', max_leaf_nodes=None,
+                           min_impurity_decrease=0.2, min_impurity_split=None,
+                           min_samples_leaf=4, min_samples_split=10,
+                           min_weight_fraction_leaf=0.0, n_estimators=250,
+                           n_iter_no_change=None, presort='deprecated',
+                           random_state=55, subsample=0.95, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=error, plot_kwargs={}, save=False, scale=1, system=True)
+2022-08-12 22:58:52,418:INFO:Checking exceptions
+2022-08-12 22:58:52,424:INFO:Preparing display monitor
+2022-08-12 22:58:52,437:INFO:Preloading libraries
+2022-08-12 22:58:52,459:INFO:Copying training dataset
+2022-08-12 22:58:52,459:INFO:Copying test dataset
+2022-08-12 22:58:52,464:INFO:Plot type: error
+2022-08-12 22:58:52,468:INFO:Initializing get_config()
+2022-08-12 22:58:52,468:INFO:get_config(variable=prep_pipe)
+2022-08-12 22:58:52,475:INFO:Global variable: prep_pipe returned as Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[],
+                                      ml_usecase='classification',
+                                      numerical_features=[],
+                                      target='dif_min_binary',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numer...
+                ('scaling', 'passthrough'), ('P_transform', 'passthrough'),
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='dif_min_binary')),
+                ('fix_perfect', Remove_100(target='dif_min_binary')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2022-08-12 22:58:52,475:INFO:get_config() succesfully completed......................................
+2022-08-12 22:58:52,475:INFO:Fitting Model
+2022-08-12 22:58:52,475:INFO:Scoring test/hold-out set
+2022-08-12 22:58:52,789:INFO:Visual Rendered Successfully
+2022-08-12 22:58:52,918:INFO:plot_model() succesfully completed......................................
+2022-08-12 22:59:03,496:INFO:Initializing plot_model()
+2022-08-12 22:59:03,496:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.3, loss='deviance', max_depth=8,
+                           max_features='sqrt', max_leaf_nodes=None,
+                           min_impurity_decrease=0.2, min_impurity_split=None,
+                           min_samples_leaf=4, min_samples_split=10,
+                           min_weight_fraction_leaf=0.0, n_estimators=250,
+                           n_iter_no_change=None, presort='deprecated',
+                           random_state=55, subsample=0.95, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=vc, plot_kwargs={}, save=False, scale=1, system=True)
+2022-08-12 22:59:03,496:INFO:Checking exceptions
+2022-08-12 22:59:03,500:INFO:Preparing display monitor
+2022-08-12 22:59:03,513:INFO:Preloading libraries
+2022-08-12 22:59:03,542:INFO:Copying training dataset
+2022-08-12 22:59:03,546:INFO:Copying test dataset
+2022-08-12 22:59:03,546:INFO:Plot type: vc
+2022-08-12 22:59:03,551:INFO:Determining param_name
+2022-08-12 22:59:03,551:INFO:param_name: actual_estimator__max_depth
+2022-08-12 22:59:03,561:INFO:Fitting Model
+2022-08-12 22:59:16,524:INFO:Initializing plot_model()
+2022-08-12 22:59:16,524:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.3, loss='deviance', max_depth=8,
+                           max_features='sqrt', max_leaf_nodes=None,
+                           min_impurity_decrease=0.2, min_impurity_split=None,
+                           min_samples_leaf=4, min_samples_split=10,
+                           min_weight_fraction_leaf=0.0, n_estimators=250,
+                           n_iter_no_change=None, presort='deprecated',
+                           random_state=55, subsample=0.95, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=feature, plot_kwargs={}, save=False, scale=1, system=True)
+2022-08-12 22:59:16,525:INFO:Checking exceptions
+2022-08-12 22:59:16,526:INFO:Preparing display monitor
+2022-08-12 22:59:16,537:INFO:Preloading libraries
+2022-08-12 22:59:16,558:INFO:Copying training dataset
+2022-08-12 22:59:16,558:INFO:Copying test dataset
+2022-08-12 22:59:16,558:INFO:Plot type: feature
+2022-08-12 22:59:16,569:WARNING:No coef_ found. Trying feature_importances_
+2022-08-12 22:59:16,821:INFO:Visual Rendered Successfully
+2022-08-12 22:59:16,937:INFO:plot_model() succesfully completed......................................
+2022-08-12 23:00:03,165:INFO:Initializing plot_model()
+2022-08-12 23:00:03,165:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.3, loss='deviance', max_depth=8,
+                           max_features='sqrt', max_leaf_nodes=None,
+                           min_impurity_decrease=0.2, min_impurity_split=None,
+                           min_samples_leaf=4, min_samples_split=10,
+                           min_weight_fraction_leaf=0.0, n_estimators=250,
+                           n_iter_no_change=None, presort='deprecated',
+                           random_state=55, subsample=0.95, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=feature_all, plot_kwargs={}, save=False, scale=1, system=True)
+2022-08-12 23:00:03,165:INFO:Checking exceptions
+2022-08-12 23:00:03,173:INFO:Preparing display monitor
+2022-08-12 23:00:03,185:INFO:Preloading libraries
+2022-08-12 23:00:03,207:INFO:Copying training dataset
+2022-08-12 23:00:03,209:INFO:Copying test dataset
+2022-08-12 23:00:03,209:INFO:Plot type: feature_all
+2022-08-12 23:00:03,212:WARNING:No coef_ found. Trying feature_importances_
+2022-08-12 23:00:05,574:INFO:Visual Rendered Successfully
+2022-08-12 23:00:05,700:INFO:plot_model() succesfully completed......................................
