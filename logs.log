@@ -11165,3 +11165,42 @@ AttributeError: 'OptunaSearchCV' object has no attribute 'cv_results_'
 2022-08-13 18:27:47,863:INFO:Checking exceptions
 2022-08-13 18:27:47,863:INFO:Preloading libraries
 2022-08-13 18:27:47,863:INFO:Preparing display monitor
+2022-08-13 18:31:43,315:INFO:Initializing predict_model()
+2022-08-13 18:31:43,315:INFO:predict_model(estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=8,
+                       max_features=0.5105271963561426, max_leaf_nodes=None,
+                       max_samples=None,
+                       min_impurity_decrease=0.00022644199686817662,
+                       min_impurity_split=None, min_samples_leaf=2,
+                       min_samples_split=6, min_weight_fraction_leaf=0.0,
+                       n_estimators=181, n_jobs=-1, oob_score=False,
+                       random_state=55, verbose=0, warm_start=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-08-13 18:31:43,315:INFO:Checking exceptions
+2022-08-13 18:31:43,315:INFO:Preloading libraries
+2022-08-13 18:31:43,316:INFO:Preparing display monitor
+2022-08-13 18:31:52,949:INFO:Initializing predict_model()
+2022-08-13 18:31:52,949:INFO:predict_model(estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=8,
+                       max_features=0.5105271963561426, max_leaf_nodes=None,
+                       max_samples=None,
+                       min_impurity_decrease=0.00022644199686817662,
+                       min_impurity_split=None, min_samples_leaf=2,
+                       min_samples_split=6, min_weight_fraction_leaf=0.0,
+                       n_estimators=181, n_jobs=-1, oob_score=False,
+                       random_state=55, verbose=0, warm_start=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-08-13 18:31:52,950:INFO:Checking exceptions
+2022-08-13 18:31:52,950:INFO:Preloading libraries
+2022-08-13 18:31:52,950:INFO:Preparing display monitor
+2022-08-13 18:32:14,995:INFO:Initializing predict_model()
+2022-08-13 18:32:14,996:INFO:predict_model(estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=8,
+                       max_features=0.5105271963561426, max_leaf_nodes=None,
+                       max_samples=None,
+                       min_impurity_decrease=0.00022644199686817662,
+                       min_impurity_split=None, min_samples_leaf=2,
+                       min_samples_split=6, min_weight_fraction_leaf=0.0,
+                       n_estimators=181, n_jobs=-1, oob_score=False,
+                       random_state=55, verbose=0, warm_start=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-08-13 18:32:14,996:INFO:Checking exceptions
+2022-08-13 18:32:14,996:INFO:Preloading libraries
+2022-08-13 18:32:14,996:INFO:Preparing display monitor
